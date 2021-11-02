@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    color: gainsboro;
+    font-size: 15px;
+    align-items: center;
+    padding-top: 20px;
+}
+#daniel{
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+}
+#Adulto{
+    margin-left: 50px;
+    width: 80px;
+    height:80px;
+    border-radius: 10%;
+}
+#Wb{
+    width: 80px;
+    height:80px;
+}
+.Direitos{
+    font-size: 12px;
+    display: flex;
+    width: 50%;
+}
+#direitos{
+    text-align: center;
+    width: 80%;
+}

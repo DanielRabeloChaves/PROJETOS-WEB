@@ -1,0 +1,14 @@
+.barra{
+    height: 20px;
+    width: 100%;
+  }
+  .linha{
+    width: 10000%;
+    border: 1px solid #c1a768;
+  }
+  .borda{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
