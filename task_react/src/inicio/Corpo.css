@@ -1,0 +1,46 @@
+#Funcionamento{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+.divi{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.containerCorpo{
+    width: 225px;
+}
+#Publicar{
+    color: rgb(255, 255, 255);
+    background-color: #189634;
+    font-size: 14px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+@media(max-width: 1024px){
+    #Funcionamento{
+        margin-left: 20px;
+        margin-top: 40px;
+        font-size: 60px;
+    }
+    .divi{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
+    .containerCorpo{
+        width: 1000px;
+    }
+    #Publicar{
+        font-size: 50px;
+        width: 800px;
+        height: 100px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+}

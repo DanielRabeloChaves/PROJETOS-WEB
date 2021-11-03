@@ -1,0 +1,55 @@
+header {
+    background-color: #22262E;
+    flex-basis: 40%;
+}
+header a:link{
+    text-decoration: none;
+}
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.Ajuda{
+    display: grid;
+    grid-template-columns: 200px;
+}
+.spanCabecalho{
+    color: white;
+}
+.Logo1{
+    width: 100px;
+    height: 100px;
+}
+.buttonCabecalho{
+    color: rgb(255, 255, 255);
+    background-color: #189634;
+    font-size: 14px;
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+@media(max-width: 1024px){
+    .cabeçalho{
+        display: flex;
+        flex-direction: column;
+    }
+    .Ajuda{
+        display: grid;
+        grid-template-columns: 0px;
+    }
+    .spanCabecalho{
+        font-size: 50px;
+    }
+    .Logo1{
+        width: 800px;
+        height: 800px;
+    }
+    .buttonCabecalho{
+        font-size: 50px;
+        width: 800px;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,121 @@
+.ChatVoltar{
+    margin: 10px;
+}
+.Mandar{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.conversar {
+    font-size: 15px;
+    width: 650px;
+    height: 50px;
+    background-color: rgb(231, 230, 230);
+    border: none;
+    border-radius: 10px;
+    
+}
+.Chat5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 05px;
+    width: 900px;
+    margin: 10px 0;
+  }
+  
+  /* Darker chat container */
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  /* Clear floats */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  .container img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Style the right image */
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  /* Style time text */
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  /* Style time text */
+  .time-left {
+    float: left;
+    color: #999;
+  }
+  .Enviar{
+      height: 50px;
+      width: 100px;
+      border-radius: 40px;
+      background-color: green;
+      color: white;
+      border: none;
+      margin: 20px;
+  }
+  #VoltarPagina{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 800px;
+    border: none;
+    background-color: blue;
+    color: white;
+  }
+
+@media(max-width: 1024px){  
+.conversar {
+    font-size: 50px;
+    width: 1000px;
+    height: 70px;
+    margin: 20px;
+}
+.container {
+    margin: 40px;
+    padding: 50px;
+    width: 1000px;
+    font-size: 50px;
+  }
+  .container img {
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+  .Enviar{
+      height: 70px;
+      width: 200px;
+      font-size: 40px;
+  }
+  #VoltarPagina{
+    height: 70px;
+    width: 200px;
+    margin-left: 800px;
+    font-size: 50px;
+  }
+}

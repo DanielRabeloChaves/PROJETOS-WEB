@@ -1,0 +1,18 @@
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+#voltar1{
+    color: black;
+}
+@media(max-width: 1024px){
+    .titulo{
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+    }
+}

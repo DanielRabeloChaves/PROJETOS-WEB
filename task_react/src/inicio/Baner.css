@@ -1,0 +1,27 @@
+.baner{
+    display: flex;
+    font-size: 45px;
+    align-items: center;
+    background-color:#376878;
+}
+.baner p{
+    width: 600px;
+    color: white;
+}
+.cor{
+    color: #122536;
+}
+
+@media(max-width: 1024px){
+    .baner{
+        display: flex;
+        font-size: 80px;
+        flex-direction: column;
+    }
+    .baner p{
+        width: 900px;
+    }
+    .logoBaner{
+        display: none;
+    }
+}
