@@ -3,6 +3,8 @@ import './Footer.css'
 
 import {useHistory} from 'react-router-dom'
 
+import DanielRabelo from './DanielRabelo2.png'
+
 export default () => {
     const history = useHistory()
     return(
@@ -13,7 +15,9 @@ export default () => {
             <p>Estagiario TI</p>
             <a rel="noopener noreferrer" href="https://github.com/DanielRabeloChaves" target="_blank">
                 <button id="button" type="submit" >GitHub</button>
-            </a>          
+            </a>
+            <span><img className="Ass" src={DanielRabelo} alt="Daniel Rabelo" /> </span>  
+            
         </>
     )
 }

@@ -1,0 +1,74 @@
+.CarrinhoDeComprasFULL{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.Carrinho{
+    background: linear-gradient(to bottom, mediumseagreen , rgba(60, 179, 114, 0.452) );
+    height: 125px;
+    width: 250px;
+    border-radius: 5px;
+}
+.Finalizar{
+    margin-top: 10px;
+    background-color: blue;
+    height: 40px;
+    width: 250px; 
+}
+.MeuCarrinhoDeCompra{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.MeuCarrinhoDeCompra p{
+    width: 150px;
+    font-family: SignikaRegular,sans-serif;
+    font-weight: bold;
+}
+.AdcionarRemover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ButtonItensADD{
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#ButtonItensADD:hover{
+    background-color: rgb(224, 224, 224)
+}
+#Bin{
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+.Finalizar{
+    background-color: darkcyan ;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-family: SignikaRegular,sans-serif;
+    
+}
+
+
+@media(max-width: 1000px){
+    .CarrinhoDeComprasFULL{
+        display: none;
+    }
+}

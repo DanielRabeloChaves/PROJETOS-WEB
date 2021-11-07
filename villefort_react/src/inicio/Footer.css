@@ -1,0 +1,153 @@
+.RelacionamentoCliente{
+    background-color: #ffdd00;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.RelacionamentoCliente a {
+    color: rgb(209, 139, 9);
+    text-decoration: none; 
+}
+.RelacionamentoCliente h1 {
+    font-size: 16px;
+    text-shadow: 0.1em 0.1em 0.2em grey;
+}
+#RelacionamentoCliente{
+    width: 60%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(116, 116, 116);
+}
+#RelacionamentoCliente p{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+}
+.chatCurso{
+    cursor: pointer;
+}
+#AppStore{
+    width: 100px;
+    cursor: pointer;
+}
+#GooglePlay {
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+#GoogleSafe{
+    width: 180px;
+    cursor: pointer;
+}
+.FooterTexto{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 14px;
+    color: gray;
+    font-family: SignikaRegular,sans-serif;
+    margin-top: 20px;
+}
+.Texto1{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.Texto2{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.texto3{
+    width: 250px;
+}
+.FooterTexto a {
+    font-family: SignikaBold,sans-serif;
+    font-weight: bold;
+    color: gray;
+    text-decoration: none; 
+}
+.FooterTexto a:hover{
+    color: rgb(56, 44, 75);
+}
+.FooterTexto2{
+    margin-top: 50px;
+    display: flex;
+    font-family: SignikaBold,sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(99, 99, 99);
+    font-size: 14px;
+}
+.texto4{
+    margin-top: 50px;
+    width: 82%; 
+}
+.linhaHorizontal2{
+    width: 100%;
+    border-bottom: 1px solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: radial-gradient(#ffdd00 10px, #ffdd0094 30%, white 70%);
+}
+.villefortEntrega{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+#villefortEntrega{
+    height: 50px;
+    filter: grayscale(100%);
+    padding: 10px;
+    cursor: pointer;
+}
+#villefortEntrega:hover{
+    filter: grayscale(0%);
+}
+.Ass{
+    width: 300px;
+}
+
+
+@media(max-width: 1000px){
+    .RelacionamentoCliente{
+        background-color: white;
+        color: grey;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 9%;
+    }
+    #RelacionamentoCliente{
+        width: auto;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        color: rgb(116, 116, 116);
+    }
+    .FooterTexto{
+        display: flex;
+        flex-direction: column;
+        margin-left: 9%;
+        margin-right: 0px;
+        font-size: 13px;
+        color: gray;
+        font-family: SignikaRegular,sans-serif;
+        margin-top: 20px;
+    }
+    #villefortEntrega{
+        display: none;
+    }
+    .Ass{
+        width: 200px;
+    }
+}

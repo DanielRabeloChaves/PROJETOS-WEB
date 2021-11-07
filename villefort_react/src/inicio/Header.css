@@ -1,0 +1,147 @@
+.entrarCriar{
+    display: flex;
+    background-color: #ffdd00;
+    align-items: center;
+    justify-content: center;
+}
+.pesquisa{
+    display: flex;
+    height: 100px;
+    background-color: #ffdd00;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1px;
+}
+.menu1{
+    display: flex;
+    background-color: #ffdd00;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    justify-content: center;
+}
+#logo{
+    margin-left: 40px;
+    height: 160px;
+    cursor: pointer;
+}
+.menu ul li{
+    display: inline-block;
+}   
+.menu li {
+    text-decoration: none;
+    margin-left: 30px;
+    display: flex;
+    padding: 8px;  
+}
+.menu a {
+    font-family: SignikaBold,sans-serif;
+    font-weight: bold;
+    color: red;
+    text-decoration: none; 
+}
+.menu li:hover a{
+    color: white;
+}
+.menu2{
+    display: flex;
+    justify-content: center;
+}
+#ButtonEntrar{
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#Search{
+    height: 30px;
+    border: solid 1px mediumaquamarine;
+    outline: 0;
+    
+}
+.menu li:hover{
+    border-radius: 5px;
+    background-color: mediumseagreen;
+}
+#ButtonEntrar:hover{
+    background-color: rgb(207, 0, 0);
+}
+.DivNone{
+    display: none;
+}
+.MenuNavBar{
+    display: none;
+}
+
+
+@media(max-width: 1000px){
+    .entrarCriar{
+        display: none;
+    }
+    .pesquisa{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .DivNone{
+        display: block;
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: space-between;
+        flex: 1;
+        align-items: center;
+        font-family: SignikaRegular,sans-serif;
+    }
+    .IconsSearchStore{
+        display: flex;
+    }
+    #SearchIcons{
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    #GroceryStore{
+        cursor: pointer;
+    }
+    #menuResponsivoClick{
+        cursor: pointer;
+    }
+    .MenuNavBar{
+        display: block;
+    }
+    .menu1{
+        position: fixed;
+        height: 40px;
+        width: 100%;
+    }
+    .navBarButton{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .StyleButtonNavBar{
+        height: 30px;
+        width: 180px;
+        background-color: rgb(146, 115, 13);
+        margin: 5px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .StyleButtonNavBar:hover{
+        background-color: rgb(206, 160, 8);
+    }
+}
+
+
+
+
