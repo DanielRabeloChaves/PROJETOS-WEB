@@ -1,0 +1,68 @@
+.InformacoesFull{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.DivInformacoes{
+    height: 350px;
+    width: 300px;
+    border-left: solid 1px #ffdd0069;
+}
+.TxtInformacoes{
+    height: 700px;
+    width: 1000px;
+    border-left: solid 1px #ffdd0069;
+    border-right: solid 1px #ffdd0069;
+}
+
+
+.DivInformacoes{
+    display: flex;
+    flex-direction: column;
+}
+.DivInformacoes a {
+    font-family: SignikaBold,sans-serif;
+    color: rgba(0, 0, 255, 0.671);
+    font-size: 12px;
+    text-decoration: none; 
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.DivInformacoes a:hover {
+    color: rgb(49, 168, 103);
+}
+.LinhaInfo{
+    border-bottom: solid 1px #ffdd0069;
+}
+.TxtQuemSomos{
+    margin: 20px;
+    font-size: 15px;
+    font-family: SignikaRegular,sans-serif;
+    color: gray;
+    line-height: 20px;
+}
+.TxtQuemSomos h3{
+    color: rgb(49, 168, 103);
+}
+.TxtQuemSomos h5{
+    color: black;
+    font-weight: bold;
+}
+
+
+@media(max-width: 850px){
+    .DivInformacoes{
+        display: none;
+    }
+    .TxtQuemSomos{
+        margin: 20px;
+        font-size: 13px;
+        font-family: SignikaRegular,sans-serif;
+        color: gray;
+        line-height: 20px;
+    }
+}

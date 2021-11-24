@@ -16,7 +16,7 @@
     display: flex;
     background-color: #ffdd00;
     align-items: center;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
     justify-content: center;
 }
@@ -50,7 +50,6 @@
 #ButtonEntrar{
     background-color: red;
     color: white;
-    font-size: 13px;
     width: 100px;
     height: 30px;
     margin-right: 10px;
@@ -64,19 +63,25 @@
     height: 30px;
     border: solid 1px mediumaquamarine;
     outline: 0;
-    
+    border-right: none;
 }
 .menu li:hover{
     border-radius: 5px;
     background-color: mediumseagreen;
 }
 #ButtonEntrar:hover{
-    background-color: rgb(207, 0, 0);
+    background-color: rgb(223, 4, 4);
 }
 .DivNone{
     display: none;
 }
 .MenuNavBar{
+    display: none;
+}
+#VillefortEntregaLogo{
+    cursor: pointer;
+}
+.PesquisarResponsive{
     display: none;
 }
 
@@ -139,6 +144,18 @@
     }
     .StyleButtonNavBar:hover{
         background-color: rgb(206, 160, 8);
+    }
+    .PesquisarResponsive{
+        padding-top: 45px;
+        padding-bottom: 5px;
+        display: block;
+    }
+    #Search{
+        height: 30px;
+        border: solid 1px mediumaquamarine;
+        outline: 0;
+        margin-left: 5px;
+        border-radius: 7px;
     }
 }
 

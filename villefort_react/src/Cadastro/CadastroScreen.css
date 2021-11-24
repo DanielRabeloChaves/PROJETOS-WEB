@@ -1,0 +1,52 @@
+.barra{
+    width: auto;
+    height: 40px;
+    background-color: #ffdd00;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barra p{ 
+    margin-left: 10px;
+}
+#CadastroHome{
+    margin-left: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.CadastroAll{
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+}
+.CadastroAll h3{
+    color: mediumseagreen;
+}
+.ButtonCadastro button{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: solid 1px rgb(179, 179, 179);
+    cursor: pointer;
+}
+.PessoaJuridica{
+    margin-left: 10px;
+}
+.ButtonCadastro{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Cadastrar{
+    height: 30px;
+    width: 100px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: solid 1px rgb(179, 179, 179);
+    cursor: pointer;
+}
+.Cadastrar:hover{
+    background-color: rgba(0, 0, 0, 0.151);
+}

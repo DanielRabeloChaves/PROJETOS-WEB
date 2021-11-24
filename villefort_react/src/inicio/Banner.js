@@ -14,8 +14,8 @@ export default class extends React.Component {
             <div className="Banner">
                 <Carousel
                    defaultControlsConfig={{
-                    nextButtonText: <MdKeyboardArrowRight size={30} color='black'/>,
-                    prevButtonText: <MdKeyboardArrowLeft size={30} color='black'/>,
+                    nextButtonText: <MdKeyboardArrowRight size={25} color='black'/>,
+                    prevButtonText: <MdKeyboardArrowLeft size={25} color='black'/>,
                     pagingDotsStyle: {
                       fill: 'blue',  
                       cursor: 'arrow',

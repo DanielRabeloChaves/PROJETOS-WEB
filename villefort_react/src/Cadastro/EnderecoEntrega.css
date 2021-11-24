@@ -1,0 +1,94 @@
+.EnderecoFULL{
+    margin-bottom: 50px;
+}
+.EnderecoFULL p{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+.EnderecoEntregaInformacoes{
+    display: grid;
+    grid-template-areas: 
+    "cep . . ."
+    "rua rua rua numero"
+    "complemento bairro cidade estado"
+    "telefone referencia referencia referencia";
+    
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.cep{
+    display: flex;
+    flex-direction: column;
+    grid-area: cep;
+}
+.Rua{
+    display: flex;
+    flex-direction: column;
+    grid-area: rua;
+}
+.Numero{
+    display: flex;
+    flex-direction: column;
+    grid-area: numero;
+}
+.Complemento{
+    display: flex;
+    flex-direction: column;
+    grid-area: complemento;
+}
+.Bairro{
+    display: flex;
+    flex-direction: column;
+    grid-area: bairro;
+}
+.Cidade{
+    display: flex;
+    flex-direction: column;
+    grid-area: cidade;
+}
+.Estado{
+    display: flex;
+    flex-direction: column;
+    grid-area: estado;
+}
+.Telefone{
+    display: flex;
+    flex-direction: column;
+    grid-area: telefone;
+}
+.Referencia{
+    display: flex;
+    flex-direction: column;
+    grid-area: referencia;
+}
+.EnderecoEntregaInformacoes input{
+    height: 25px;
+    border: solid 1px rgb(163, 163, 163);
+    outline: 0;
+}
+.EnderecoEntregaInformacoes select{
+    height: 30px;
+    border: solid 1px rgb(163, 163, 163);
+    outline: 0;
+}
+
+@media(max-width: 850px){
+    .EnderecoEntregaInformacoes{
+        display: grid;
+        grid-template-areas: 
+        "cep"
+        "rua"
+        "numero"
+        "complemento"
+        "bairro"
+        "cidade"
+        "estado"
+        "telefone" 
+        "referencia";
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+}

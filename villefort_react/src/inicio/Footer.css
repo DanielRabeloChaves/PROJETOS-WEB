@@ -24,7 +24,7 @@
 }
 #RelacionamentoCliente p{
     display: flex;
-    font-size: 15px;
+    font-size: 14px;
     align-items: center;
     text-align: center;
 }
@@ -49,7 +49,7 @@
     justify-content: space-evenly;
     margin-left: 40px;
     margin-right: 40px;
-    font-size: 14px;
+    font-size: 13px;
     color: gray;
     font-family: SignikaRegular,sans-serif;
     margin-top: 20px;
@@ -99,7 +99,7 @@
 }
 .villefortEntrega{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin-right: 100px;
     margin-top: 10px;
 }
@@ -111,9 +111,6 @@
 }
 #villefortEntrega:hover{
     filter: grayscale(0%);
-}
-.Ass{
-    width: 300px;
 }
 
 
@@ -146,8 +143,5 @@
     }
     #villefortEntrega{
         display: none;
-    }
-    .Ass{
-        width: 200px;
     }
 }

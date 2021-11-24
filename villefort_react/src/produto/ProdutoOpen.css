@@ -1,0 +1,115 @@
+.PrecoProduto2{
+    display: flex;
+}
+.PrecoProduto2 p{
+    font-size: 14px;
+    margin-left: 5px;   
+}
+.triangulo2{
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #ffdd00c0;
+}
+.divPrecoProduto2{
+    color: red;
+    height: 40px;
+    width: 90px;
+    line-height: 0; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
+    background-color: #ffdd00c0;
+    margin-right: 20px;
+}
+.ProdutoOpenFull{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+.ProdutoOpen1{
+    width: 2500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-left: solid 1px #ffdd0083;
+    font-family: inherit;
+    color: mediumseagreen;
+    font-size: 25px;
+}
+.ProdutoOpen1 h4{
+    margin-left: 30px;
+}
+.ProdutoOpen2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ProdutoOpen3{
+    width: 100%;
+    border-left: solid 1px #ffdd0083;
+    border-right: solid 1px #ffdd0083;
+}
+.ProdutoOpen4{
+    width: 100%;
+    height: 100%;
+}
+.DivQtdComprar2{
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    justify-content: flex-end;
+}
+.LinhaInfo2{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: solid 1px #ffdd0069;
+}
+.MiniProduto{
+    display: flex;
+    flex-direction: column;
+}
+.MiniProduto2{
+    display: flex;
+    justify-content: space-around;
+}
+.ProdutoOpen3 h4{
+    margin-left: 20px;
+    color: gray;
+    font-size: 12px;
+}
+.DivQtdComprar3{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.ProdutoOpen3 h3{
+    margin-left: 20px;
+    color: mediumseagreen; 
+}
+#MiniFotoProduto{
+    cursor: pointer;
+}
+
+@media(max-width: 1000px){
+    .ProdutoOpenFull{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .ProdutoOpen1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-left: solid 1px #ffdd0083;
+        font-family: inherit;
+        color: mediumseagreen;
+        font-size: 25px;
+    }
+}

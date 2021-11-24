@@ -11,7 +11,6 @@ import GooglePlay from './images/AppGooglePlay.png'
 import AppStore from './images/AppAppStore.png'
 import Villefort from './images/villefortEntrega.png'
 import ClubeVillefort from './images/ClubeVillefort.png'
-import DanielRabelo from './images/DanielRabelo.png'
 
 import { useHistory } from "react-router";
 
@@ -37,12 +36,12 @@ export default () => {
                     <p>
                         Com um sistema logístico ágil e dinâmico, o Villefort Entrega leva suas compras até você com toda agilidade, conforto e segurança que um supermercado online oferece, com a comodidade que você precisa.
                     </p>
-                    <a href="#">Clique aqui e saiba mais</a>  
+                    <a href="#" onClick={() => history.push('./Informacoes')}>Clique aqui e saiba mais</a>  
                 </div>
 
                 <div className="Texto2">
                     <h3>INSTITUCIONAL</h3>
-                        <a href="#">Quem somos</a>
+                        <a href="#" onClick={() => history.push('./Informacoes')}>Quem somos</a>
                         <a href="#">Como comprar</a>
                         <a href="#">Entregas</a>
                         <a href="#">Formas de Pagamento</a>
@@ -84,13 +83,8 @@ export default () => {
                 </div>
             </div>
             <div className="villefortEntrega">
-                <div>
-                  <a  href="https://github.com/DanielRabeloChaves" target="_blank"><img className="Ass" src={DanielRabelo} alt="Daniel Rabelo"/></a>
-                </div>
-                <div>
-                    <a href="https://play.google.com/store/apps/details?id=com.clubevillefort" target="_blank"><img id="villefortEntrega" src={ClubeVillefort} alt="Clube Villefort"/></a>
-                    <a href="http://www.villefort.com.br/" target="_blank"><img id="villefortEntrega" src={Villefort} alt="Villefort Entrega"/></a> 
-                </div>
+                <a href="https://play.google.com/store/apps/details?id=com.clubevillefort" target="_blank"><img id="villefortEntrega" src={ClubeVillefort} alt="Clube Villefort"/></a>
+                <a href="http://www.villefort.com.br/" target="_blank"><img id="villefortEntrega" src={Villefort} alt="Villefort Entrega"/></a>
             </div>
         </div>
     )

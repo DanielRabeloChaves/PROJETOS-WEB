@@ -1,0 +1,109 @@
+.PessoaFisicaAll{
+    margin-bottom: 50px;
+    
+}
+.PessoaFisicaAll p{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+.PessoFisicaInformacoes{
+    display: grid;
+    grid-template-areas: 
+    "Nome Sobrenome DtaNascimento CPF"
+    "Email Email ConfEmail ConfEmail"
+    "TelFixo TelCel . ."
+    "Senha ConfiSenha . .";
+    
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.NomePesFis{
+    display: flex;
+    flex-direction: column;
+    grid-area: Nome;
+}
+.SobrenomePesFis{
+    display: flex;
+    flex-direction: column;
+    grid-area: Sobrenome;
+}
+.DtaNascimentoPesFis{
+    display: flex;
+    flex-direction: column;
+    grid-area: DtaNascimento;
+}
+.CPFPesFis{
+    display: flex;
+    flex-direction: column;
+    grid-area: CPF;
+}
+.EmailPesFis{
+    display: flex;
+    flex-direction: column;
+    grid-area: Email;
+}
+.ConfirmarEmailPesFis{
+    display: flex;
+    flex-direction: column;
+    grid-area: ConfEmail;
+}
+.TelFixoPesFis{
+    display: flex;
+    flex-direction: column;
+    grid-area: TelFixo;
+}
+.TelCelularNomePesFis{
+    display: flex;
+    flex-direction: column;
+    grid-area: TelCel;
+}
+.SenhaPesFis{
+    display: flex;
+    flex-direction: column;
+    grid-area: Senha;
+}
+.ConfirmarSenhaPesFis{
+    display: flex;
+    flex-direction: column;
+    grid-area: ConfiSenha;
+}
+.PessoFisicaInformacoes input{
+    height: 25px;
+    border: solid 1px rgb(163, 163, 163);
+    outline: 0;
+}
+.CheckBox{
+    margin-top: 30px;
+}
+.CheckBox a {
+    color: lightseagreen;
+    text-decoration: none; 
+}
+.CheckBox a:hover {
+    color: lightseagreen;
+    text-decoration: underline; 
+}
+
+@media(max-width: 850px){
+    .PessoFisicaInformacoes{
+        display: grid;
+        grid-template-areas: 
+        "Nome" 
+        "Sobrenome"
+        "DtaNascimento"
+        "CPF"
+        "Email" 
+        "ConfEmail"
+        "TelFixo"
+        "TelCel"
+        "Senha" 
+        "ConfiSenha";
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+}
+
+

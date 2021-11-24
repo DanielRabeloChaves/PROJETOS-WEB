@@ -5,12 +5,10 @@ import Header from "./Header";
 import Categorias from "./Categorias";
 import Banner from './Banner'
 import Footer from './Footer'
-import Produtos from './Produtos'
+import Produtos from '../produto/Produtos'
 import Carrinho from './Carrinho'
 
-
 import {Link} from 'react-router-dom'
-
 
 export default () => {
     return (

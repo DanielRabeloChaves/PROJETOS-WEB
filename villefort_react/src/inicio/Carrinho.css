@@ -3,6 +3,9 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+    margin-top: 10px;
+    margin-left: 10px;
+    
 }
 .Carrinho{
     background: linear-gradient(to bottom, mediumseagreen , rgba(60, 179, 114, 0.452) );

@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import {useHistory} from 'react-router-dom'
+
+
 const Ul = styled.ul`
   list-style: none;
   display: flex;
@@ -20,6 +23,21 @@ const Ul = styled.ul`
     color: dimgray;
 }
 
+  #summary{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: SignikaBold,sans-serif;
+    padding-top: 18px;
+  }
+  #summary:hover{
+    color: dimgray;
+    cursor: pointer;
+  }
+  details a:hover{
+    color: dimgray;
+    cursor: pointer;
+  }
+
   @media (max-width: 1000px){
     flex-flow: column nowrap;
     background-color: #ffdd00;
@@ -38,18 +56,29 @@ const Ul = styled.ul`
 `;
 
 const RightNav = ({ open }) => {
+
+  const history = useHistory()
+
   return (
   <div>
       <Ul open={open}>
         <div className="navBarButton">
-          <button className="StyleButtonNavBar">Entrar</button>
-          <button className="StyleButtonNavBar">Criar Conta</button>
+          <button className="StyleButtonNavBar" onClick={() => history.push('./login')}>Entrar</button>
+          <button className="StyleButtonNavBar" onClick={() => history.push('./Cadastro')} >Criar Conta</button>
         </div>
         <li><a href="#">DEPARTAMENTO</a></li>
         <li><a href="#">OFERTAS</a></li>
         <li><a href="#">COLEÇÕES</a></li>
         <li><a href="#">RECEITAS</a></li>
         <li><a href="#">MAIS VENDIDOS</a></li>
+
+        <details>
+            <summary id="summary">INFORMAÇOES</summary>
+            <br/><a href="#" onClick={() => history.push('./Informacoes')}>Quem somos</a><br/>
+            <br/><a href="#">Como comprar</a><br/>
+            <br/><a href="#">Entregas</a><br/>
+            <br/><a href="#">Formas de Pagamento</a><br/>
+        </details>
      </Ul>
   </div>
     

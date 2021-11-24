@@ -1,0 +1,135 @@
+.PessoaJuridicaAll{
+    margin-bottom: 50px;
+    
+}
+.PessoaJuridicaAll p{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+.PessoJuridicaInformacoes{
+    display: grid;
+    grid-template-areas: 
+    "RazaoSocial NomeFantasia CNPJ InscricaoEstadual"
+    "Nome Sobrenome DtaNascimento CPF"
+    "Email Email ConfirmarEmail ConfirmarEmail"
+    "TelFixo TelCelular . ."
+    "Senha ConfirmarSenha . .";
+    
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.RazSocialPesJur{
+    display: flex;
+    flex-direction: column;
+    grid-area: RazaoSocial;
+}
+.NomeFantPesJur{
+    display: flex;
+    flex-direction: column;
+    grid-area: NomeFantasia;
+}
+.CNPJPesJur{
+    display: flex;
+    flex-direction: column;
+    grid-area: CNPJ;
+}
+.InscriEstadualPesJur{
+    display: flex;
+    flex-direction: column;
+    grid-area: InscricaoEstadual;
+}
+.NomePesJur{
+    display: flex;
+    flex-direction: column;
+    grid-area: Nome;
+}
+.SobrenomePesJur{
+    display: flex;
+    flex-direction: column;
+    grid-area: Sobrenome;
+}
+.DtaNascimentoPesJur{
+    display: flex;
+    flex-direction: column;
+    grid-area: DtaNascimento;
+}
+.CPFPesJur{
+    display: flex;
+    flex-direction: column;
+    grid-area: CPF;
+}
+.EmailPesJur{
+    display: flex;
+    flex-direction: column;
+    grid-area: Email;
+}
+.ConfiEmailPesJur{
+    display: flex;
+    flex-direction: column;
+    grid-area: ConfirmarEmail;
+}
+.TelFixoPesJur{
+    display: flex;
+    flex-direction: column;
+    grid-area: TelFixo;
+}
+.TelCelularPesJur{
+    display: flex;
+    flex-direction: column;
+    grid-area: TelCelular;
+}
+.SenhaPesJur{
+    display: flex;
+    flex-direction: column;
+    grid-area: Senha;
+}
+.ConfiSenhaPesJur{
+    display: flex;
+    flex-direction: column;
+    grid-area: ConfirmarSenha;
+}
+
+
+.PessoJuridicaInformacoes input{
+    height: 25px;
+    border: solid 1px rgb(163, 163, 163);
+    outline: 0;
+}
+.CheckBox{
+    margin-top: 30px;
+}
+.CheckBox a {
+    color: lightseagreen;
+    text-decoration: none; 
+}
+.CheckBox a:hover {
+    color: lightseagreen;
+    text-decoration: underline; 
+}
+
+@media(max-width: 850px){
+    .PessoJuridicaInformacoes{
+        display: grid;
+        grid-template-areas: 
+        "RazaoSocial"
+        "NomeFantasia"
+        "CNPJ"
+        "InscricaoEstadual"
+        "Nome" 
+        "Sobrenome"
+        "DtaNascimento" 
+        "CPF"
+        "Email"
+        "ConfirmarEmail"
+        "TelFixo"
+        "TelCelular"
+        "Senha"
+        "ConfirmarSenha";
+        
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+}
